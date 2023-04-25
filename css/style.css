@@ -1,9 +1,15 @@
+@font-face {
+    font-family: HankenGroup;
+    src: url('./HankenGrotesk-VariableFont_wght.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: HankenGroup;
 }
 
 .container {
@@ -35,29 +41,36 @@
     border-radius: 20px;
     justify-content: center;
     text-align: center;
+    background: rgb(102,71,231);
+background: linear-gradient(0deg, rgba(53,45,212,1) 0%, rgba(102,71,231,1) 100%);
+}
+
+.result p{
+    color: #ffffff9c;
 }
 
 .result h2 {
     font-size: 18px;
-    color: #fff;
+    color: #ffffffa3;
     padding-top: 25px;
 }
 
 .circle{
-    background-color: #fff;
+    background: linear-gradient(0deg, rgba(102,71,231,1) 0%,  rgba(53,45,212,1) 100%);
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 23px;
-    vertical-align: middle;
+    margin-top: 33px;
+    position: relative;
+
 }
 
 .circle p{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
-    vertical-align: middle;
-    color: #0f0;
+    color: #fff;
+    margin-top: 30px;
 }
 
 .result h3 {
@@ -67,11 +80,77 @@
 }
 
 .result p{
-    padding-top: 10px;
+    padding-top: 15px;
+    text-align: center;
+
+
 }
 
 .sumary{
     height: 100%;
     width: 50%;
     background-color: #fff;
+    position: relative;
+}
+
+.titulo {
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.quality {
+    margin-left: 30px;
+    background-color: #00f;
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.quality img{
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+#reaction{
+    background-color: #fff6f5;
+    color: firebrick;
+
+}
+
+#memory{
+    background-color: #ffffe6;
+    color: #be8615;
+}
+
+#verbal{
+    background-color: #f2fbfa;
+    color: #178477;
+}
+
+#visual{
+    background-color: #e7edff;
+    color: #223f96;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #303b59;
+    color: #fff;
+    width: 240px;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.button p{
+    padding-top: 14px;
 }
