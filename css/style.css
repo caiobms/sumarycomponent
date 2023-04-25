@@ -149,6 +149,7 @@ background: linear-gradient(0deg, rgba(53,45,212,1) 0%, rgba(102,71,231,1) 100%)
     height: 50px;
     text-align: center;
     margin: auto;
+    cursor: pointer;
 }
 
 .button p{
